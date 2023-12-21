@@ -26,8 +26,9 @@ class _TabsState extends State<Tabs> {
       backgroundColor: Colors.black,
       body: _screen[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
+        type:BottomNavigationBarType.fixed,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
         selectedItemColor: ColorConstants.primaryColor,
         unselectedItemColor: Colors.white,
         enableFeedback: true,
@@ -41,19 +42,19 @@ class _TabsState extends State<Tabs> {
         backgroundColor: Colors.black,
         items: const <BottomNavigationBarItem> [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
+            icon: Icon(Icons.home_outlined) ,
             activeIcon: Icon(Icons.home_outlined),
-            label: '',
+            label: 'home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search_outlined),
             activeIcon: Icon(Icons.search),
-            label: ''
+            label: 'Search'
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.more_horiz),
-            activeIcon: Icon(Icons.more_horiz),
-            label: ''
+            icon: Icon(Icons.local_library_outlined),
+            activeIcon: Icon(Icons.local_library_outlined),
+            label: 'Your Library'
           )
         ],
       ),

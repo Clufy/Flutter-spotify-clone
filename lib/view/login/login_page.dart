@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
                       height: 70,
                       child: Image.asset('assets/images/logo.png')),
                     const SizedBox(height: 20,),
-                    const Text('MIllions of songs, free on spotify', style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600, fontFamily: 'Roboto', fontStyle: FontStyle.normal),)
+                    const Text('Millions of songs, free on spotify', style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.w600, fontFamily: 'Roboto', fontStyle: FontStyle.normal),)
                   ],
                 ),
               ),
@@ -64,11 +64,11 @@ class _LoginPageState extends State<LoginPage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            const Text('Login Account', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w500), textAlign: TextAlign.center,),
+                            const Text('Account Login', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w500), textAlign: TextAlign.center,),
                             const SizedBox(height: 22,),
                             SizedBox(
                               height: 40,
-                              child: Input(hint: 'Email or Username', icon: Icons.email_outlined),
+                              child: Input(hint: 'Email or Username',icon: Icons.email_outlined,),
                             ),
                             const SizedBox( height:16),
                             SizedBox(
@@ -87,8 +87,8 @@ class _LoginPageState extends State<LoginPage> {
                               title: Text('Remember me', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: ColorConstants.starterWhite)),
                             ),
                             MaterialButton(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(31)),
-                              height: 40,
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(26)),
+                              height: 35,
                               color: ColorConstants.primaryColor,
                               onPressed: () => Navigator.push(context , MaterialPageRoute(builder: (context) => const Tabs())),
                               child: const Text('LOG IN', style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w700),) ,

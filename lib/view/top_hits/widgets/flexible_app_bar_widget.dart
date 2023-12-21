@@ -21,18 +21,18 @@ class FlexibleSpaceBarWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Todays'.toUpperCase(), style: const TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.w700, fontStyle: FontStyle.normal, fontFamily: 'Inter')),
-            Text('Top Hit'.toUpperCase(), style: const TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.w700, fontStyle: FontStyle.normal, fontFamily: 'Inter')),
+            Text('Daily'.toUpperCase(), style: const TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.w700, fontStyle: FontStyle.normal, fontFamily: 'Inter')),
+            Text('Mix'.toUpperCase(), style: const TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.w700, fontStyle: FontStyle.normal, fontFamily: 'Inter')),
             const SizedBox(height: 8,),
             const Row(
               children: [
                 Icon(Icons.favorite, color: Colors.white54, size: 14,),
                 SizedBox(width: 4,),
-                Text('357,828 likes', style: TextStyle(color: Colors.white54, fontSize: 13)),
+                Text('152,257 likes', style: TextStyle(color: Colors.white54, fontSize: 13)),
                 SizedBox(width: 50,),
                 Icon(Icons.watch, color: Colors.white54, size: 14,),
                 SizedBox(width: 4,),
-                Text('2hr 40min', style: TextStyle(color: Colors.white54, fontSize: 13)),
+                Text('4hr 21min', style: TextStyle(color: Colors.white54, fontSize: 13)),
               ],
             ),
           ],

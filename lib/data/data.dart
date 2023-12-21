@@ -11,20 +11,20 @@ final List<Map<String, dynamic>> slider = [
 
 final List<Map<String, dynamic>> topMixes = [
   {
-    "title" : "Hip Hop Mix",
-    "description" : "Juice Wrld, Drake, Kendrick lamar and more... ",
+    "title" : "Daily Mix 1",
+    "description" : "Yutaka yamada, Evan Call, 桶狭間 ありさ and more",
     "image" : "assets/images/music1.png",
     "color" : "#EF0CAF"
   },
   {
-    "title" : "Moody Mix",
-    "description" :  "Joji, The Kid LAROI, Tate McRae and more...",
+    "title" : "Daily Mix 2",
+    "description" :  "xxsagexx, Wisp X, Couple N and more",
     "image" : "assets/images/music2.png",
     "color" : "#FFFF00"
   },
   {
-    "title" : "House Mix",
-    "description" :  "Martin Garrix, The Chainsmoker and more...",
+    "title" : "Daily Mix 3",
+    "description" :  "Chipbagov , loomie, NUEKI and more",
     "image" : "assets/images/music3.png",
     "color" : "#1ED760"
   },
@@ -32,25 +32,25 @@ final List<Map<String, dynamic>> topMixes = [
 
 List<Map<String, dynamic>> artists = [
   {
-    'image': 'assets/images/artist1.png',
-    'name' : 'The Kid LAROI'
+    'image': 'assets/images/artist_1.png',
+    'name' : 'Mewsic'
   },
   {
-    'image':  'assets/images/artist2.png',
-    'name': 'Taylor Swift'
+    'image':  'assets/images/artist_2.png',
+    'name': 'Yutaka yamada'
   },
   {
-    'image': 'assets/images/artist3.png',
-    'name': 'Post Malone'
+    'image': 'assets/images/artist_3.png',
+    'name': 'Hiroyuki Sawano'
   }
 ];
 
 List<String> searchList = [
-  'The Kid LAROI',
-  'Drake',
-  'Justin Bieber',
+  'Mewsic',
+  'Phonk',
+  'Taylor Swift',
   'Joji',
-  'Hip Hop',
+  'Rock',
   'Pop',
   'Top-Hits'
 ];

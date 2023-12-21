@@ -12,8 +12,8 @@ class ActivityCard extends StatelessWidget {
       onTap: () {},
       child: ListTile(
         contentPadding: const EdgeInsets.only(left: 8),
-        leading: Icon(icon, color: Colors.white, size: 32),
-        trailing: const Icon(Icons.keyboard_arrow_right_outlined, color: Colors.white, size: 46,),
+        leading: Icon(icon, color: Colors.white, size: 30),
+        trailing: const Icon(Icons.keyboard_arrow_right_outlined, color: Colors.white, size: 42,),
         title: Text(title, style: const TextStyle(
           fontSize: 17,
           color: Colors.white,

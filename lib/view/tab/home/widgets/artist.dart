@@ -29,20 +29,23 @@ class Artist extends StatelessWidget {
             ),
             child: Column(
               children: [
-                SizedBox(
-                  height: 125,
-                  width: 125,
-                  child: Image.asset(artist['image'])),
+                ClipOval(
+
+                    child:
+                    SizedBox(
+                        height: 125,
+                        width: 125,
+                        child: Image.asset(artist['image']))),
                 const SizedBox(height: 16,),
                 Text(artist['name'], style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white
                 ))
               ],
             ),
           );
-      }),
+        }),
     );
   }
 }

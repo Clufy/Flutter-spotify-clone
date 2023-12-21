@@ -14,7 +14,7 @@ class WeeklyTitle extends StatelessWidget {
         const SizedBox(width: 18,),
         RichText(
           text: TextSpan(
-            text: 'Weakly ',
+            text: 'Weekly ',
             style: TextStyle(color: ColorConstants.primaryColor, fontSize: 18, fontWeight: FontWeight.w600),
             children: const [
               TextSpan(

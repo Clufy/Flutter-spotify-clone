@@ -24,7 +24,7 @@ class MoreTitle extends StatelessWidget {
           onPressed: () {},
         ),
         IconButton(
-          icon: const Icon(Icons.person_sharp, color: Colors.white,),
+          icon: const Icon(Icons.add, color: Colors.white, size:30),
           onPressed: () {},
         ),
       ],
