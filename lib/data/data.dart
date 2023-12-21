@@ -108,8 +108,8 @@ final List<Map<String, dynamic>> playList = [
 final List<Map<String, dynamic>> topHit = [
     {
       'image': 'assets/images/music1.png',
-      'title': 'stay',
-      'description': 'The Kid LAROI, Justin Bieber',
+      'title': 'Gone',
+      'description': 'Yutaka Yamada, Evan Call',
       'favorite': true,
     },
     {
