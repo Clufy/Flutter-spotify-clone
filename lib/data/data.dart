@@ -57,9 +57,9 @@ List<String> searchList = [
 
 final List<Map<String, dynamic>> podCast = [
   {
-    "title" : "Impaulsive",
-    "description" : "334 ep.",
-    "image" : "assets/images/impaulsive.png",
+    "title" : "Zig zaglar",
+    "description" : "1 ep.",
+    "image" : "assets/images/Zig_zaglar.png",
   },
   {
     "title" : "TED Talks Daily",
